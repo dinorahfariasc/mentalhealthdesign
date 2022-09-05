@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
           children: [
             // greetings
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
+              padding: const EdgeInsets.only(left: 20, right: 20, top: 10),
               child: Column(
                 children: [
                   Row(
@@ -198,7 +198,12 @@ class _HomePageState extends State<HomePage> {
             Expanded(
               child: Container(
                 padding: EdgeInsets.all(25),
-                color: Colors.grey[200],
+                decoration: BoxDecoration(
+                    color: Colors.grey[200],
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(26),
+                      topRight: Radius.circular(26),
+                    )),
                 child: Center(
                   child: Column(
                     children: [
