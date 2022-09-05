@@ -1,5 +1,5 @@
 # mental_health
 
-design of a homepege from a mental health app, based on this video https://youtu.be/eegl7of4g-o
+design of a homepage from a mental health app, based on this video https://youtu.be/eegl7of4g-o
 
 
